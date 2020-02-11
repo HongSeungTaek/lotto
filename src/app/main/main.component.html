@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="header">
+        <h1>버튼을 누르면 밑에서 나옵니다.</h1>
+        <div>
+            <select [(ngModel)]="count">
+                <option value="1">1</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="30">30</option>
+                <option value="50">50</option>
+            </select>개씩 뽑기
+        </div>        
+        <a class="btn-click" (click)="showNumber()">클릭</a>
+    </div>
+    <div class="body">
+        <div class="view-area">
+            <table class="lotto-table">
+                <tr *ngFor="let lotto of lottos">
+                    <td *ngFor="let num of lotto; last as isLast">
+                        {{num > 9 ? num : '&nbsp;&nbsp;'+num}}
+                        <ng-container *ngIf="!isLast">,</ng-container>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

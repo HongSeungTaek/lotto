@@ -1,0 +1,15 @@
+.container {
+    width: 800px;
+    height: 99%;
+    border: 1px solid black;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.btn-click {
+    cursor: pointer;
+}
+
+.lotto-table {
+    text-align: right;
+}
