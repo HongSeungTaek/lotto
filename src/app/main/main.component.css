@@ -1,15 +1,23 @@
 .container {
-    width: 800px;
-    height: 99%;
-    border: 1px solid black;
-    margin: auto;
-    overflow-y: scroll;
+  margin-top: 150px;
+  width: 600px;
 }
 
-.btn-click {
-    cursor: pointer;
+.card-header,
+.card-footer {
+  background-color: #ffffff;
 }
 
 .lotto-table {
-    text-align: right;
+  margin: auto;
+}
+
+.lotto-table td span {
+  display: block;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
 }
