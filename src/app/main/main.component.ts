@@ -5,7 +5,7 @@ import { RandomService } from '../random.service';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+  styleUrls: ['../bootstrap/bootstrap.css', './main.component.css']
 })
 export class MainComponent implements OnInit {
   lottos: Array<Array<number>>;
