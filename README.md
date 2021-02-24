@@ -7,3 +7,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # gh-pages 연동
 URL: https://hongseungtaek.github.io/lotto
+
+# Bootstrap CSS 추가
+부트스트랩 CSS를 추가하였습니다.
